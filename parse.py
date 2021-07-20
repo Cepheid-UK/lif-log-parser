@@ -30,3 +30,6 @@ with open('input.log', 'r') as log:
         writer = csv.writer(outputFile)
         writer.writerow([hit])
         writer.writerow([tookHit])
+
+# to create exe:
+# http://www.pyinstaller.org/
